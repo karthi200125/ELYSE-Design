@@ -1,6 +1,6 @@
-import Image from "next/image"
 import demo from '@/app/assets/demo.jpg'
 import DesignCard from '@/app/components/DesignCard'
+import Image from "next/image"
 
 const WeDoPage = () => {
     return (

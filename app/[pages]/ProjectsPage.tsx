@@ -1,3 +1,4 @@
+import Button from "../components/Button"
 import ImageCarousel from "../components/ImageCarasoul"
 
 const ProjectsPage = () => {
@@ -15,7 +16,7 @@ const ProjectsPage = () => {
             <div className="w-full flex flex-row items-center justify-center ">
                 <div className="flex flex-row items-center gap-10 w-[30%] text-xs">
                     <p className="w-[62%]">Two-story luxury apartments that feature sunlit living spaces, private terraces, and a selection of exclusive amenities.</p>
-                    <button className="rounded-full py-2 px-3 bg-white text-black ">LEARN MORE</button>
+                    <Button>LEARN MORE</Button>
                 </div>
             </div>
 

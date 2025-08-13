@@ -1,6 +1,7 @@
 import Image from "next/image"
 import aboutimage from '@/app/assets/about.jpg'
-import CustomImage from "../components/Button"
+import CustomImage from "../components/CustomImage"
+import Button from "../components/Button"
 
 const About = () => {
     return (
@@ -22,8 +23,8 @@ const About = () => {
             {/* Third column */}
             <div className="flex-1 h-full text-sm space-y-10 pl-20">
                 <p>Every element of Elyse Residence reflects a commitment to excellence — from the timeless elegance of its interiors to the thoughtfully curated amenities, the property embodies a holistic approach to luxury living. </p>
-                <p>Wherever you're seeking a sincere, vibrant cultural hub that fosters personal growth, Elyse Residence offers it all. </p>
-                <button className="rounded-full py-2 px-3 bg-white text-black">LEARN MORE</button>
+                <p>Wherever you're seeking a sincere, vibrant cultural hub that fosters personal growth, Elyse Residence offers it all. </p>                
+                <Button>LEARN MORE</Button>
             </div>
 
         </section>

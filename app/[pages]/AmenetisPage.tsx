@@ -1,6 +1,6 @@
-import Image from "next/image"
 import demo from '@/app/assets/demo.jpg'
-import CustomImage from "../components/Button"
+import Button from "../components/Button"
+import CustomImage from "../components/CustomImage"
 
 const AmenetisPage = () => {
     return (
@@ -8,8 +8,8 @@ const AmenetisPage = () => {
 
             <div className="flex-1 h-full flex items-start justify-center flex-col gap-5">
                 <h2 style={{ fontFamily: 'Harmond' }} className="w-[40%] leading-15">WELLNESS CENTERED AMENTIES</h2>
-                <p className="w-[40%]" >From private fitness studios to guided maintenance sessions and outdoor activities, all are designed to enhance your well-being and foster a sense of harmony.</p>
-                <button className="rounded-full py-2 px-3 bg-white text-black text-xs">LEARN MORE</button>
+                <p className="w-[40%]" >From private fitness studios to guided maintenance sessions and outdoor activities, all are designed to enhance your well-being and foster a sense of harmony.</p>                
+                <Button>LEARN MORE</Button>
             </div>
 
             <CustomImage

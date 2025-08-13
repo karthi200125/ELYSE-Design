@@ -1,6 +1,6 @@
-import Image from "next/image"
 import demo from '@/app/assets/demo.jpg'
-import CustomImage from "../components/Button"
+import Button from "../components/Button"
+import CustomImage from "../components/CustomImage"
 
 const BeliefPage = () => {
     return (
@@ -21,7 +21,7 @@ const BeliefPage = () => {
                         <h3>(OUR BELEIFS)</h3>
                         <div className="space-y-5 text-xs mb-[100px] w-[70%]">
                             <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, fuga ipsum unde voluptatum accusamus veritatis asperiores eum soluta! Molestiae, tenetur?</p>
-                            <button className="rounded-full py-2 px-3 bg-white text-black ">LEARN MORE</button>
+                            <Button>LEARN MORE</Button>
                         </div>
                     </div>
                 </div>

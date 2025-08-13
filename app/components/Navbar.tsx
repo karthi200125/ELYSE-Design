@@ -1,4 +1,4 @@
-import { BiMenuAltRight } from "react-icons/bi";
+import Button from "./Button";
 import Menu from "./Menu";
 
 const Navbar = () => {
@@ -8,11 +8,7 @@ const Navbar = () => {
             <div className="flex flex-row items-center gap-20 text-xs">
                 <div>EN - DE </div>
                 <div className="gap-5 flex flex-row items-center text-[10px] leading-1.5">
-                    <button className="rounded-full py-2 px-3 bg-white text-black">BOOK A VISIT</button>
-                    {/* <BiMenuAltRight
-                        size={30}
-                        className="cursor-pointer text-neutral-300"
-                    /> */}
+                    <Button>BOOK A VISIT</Button>
                     <Menu />
                 </div>
             </div>

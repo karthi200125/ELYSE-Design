@@ -1,3 +1,4 @@
+import CountUp from "../components/CountUp"
 
 const CountsPage = () => {
     return (
@@ -6,11 +7,15 @@ const CountsPage = () => {
             {/* first */}
             <div className="flex-1 w-full flex justify-end items-center gap-20">
                 <div>
-                    <h1 className="text-[150px] leading-0">60 <span className="text-xl">%</span></h1>
+                    <h1 className="text-[150px] leading-0">
+                        <CountUp from={0} to={60} duration={3} />
+                        <span className="text-xl">%</span></h1>
                     <p className="mt-2">Green spaces <br /> for traqulity & wellness</p>
                 </div>
                 <div>
-                    <h1 className="text-[150px] leading-0">30 <span className="text-xl"></span></h1>
+                    <h1 className="text-[150px] leading-0">
+                        <CountUp from={0} to={30} duration={3} />
+                        <span className="text-xl"></span></h1>
                     <p className="mt-2">Exclusive residences <br /> each toilered for comfort <br /> & elegance</p>
                 </div>
             </div>
@@ -18,7 +23,9 @@ const CountsPage = () => {
             {/* middle */}
             <div className="w-full flex-1 flex justify-start items-center">
                 <div>
-                    <h1 className="text-[150px] leading-0">150k <span className="text-2xl">sq. ft.</span></h1>
+                    <h1 className="text-[150px] leading-0">
+                        <CountUp from={0} to={150} duration={3} />k
+                        <span className="text-2xl">sq. ft.</span></h1>
                     <p className="mt-2">of meticlously designed <br />  living space</p>
                 </div>
             </div>

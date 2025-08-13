@@ -1,23 +1,21 @@
-import Image from "next/image";
+import React, { ReactNode } from "react";
 
-interface CustomImageProps {
+interface ButtonProps {
     className?: string;
-    img_cls?: string;
-    src: any;
-    alt?: string;
+    onClick?: () => void;
+    children: ReactNode; 
 }
 
-const CustomImage = ({ className, img_cls, src, alt }: CustomImageProps) => {
+const Button = ({ children, className, onClick }:ButtonProps) => {
     return (
-        <div className={`${className} relative overflow-hidden`}>
-            <Image
-                src={src || ''}
-                alt={alt || "Image"}
-                fill
-                className={`${img_cls} absolute top-0 left-0 w-full h-full object-cover`}
-            />
-        </div>
+        <button
+            type="button"
+            className={`rounded-full py-2 px-3 bg-white text-black flex items-center justify-center text-xs ${className || ""}`}
+            onClick={onClick}
+        >
+            {children}
+        </button>
     );
 };
 
-export default CustomImage;
+export default Button;
