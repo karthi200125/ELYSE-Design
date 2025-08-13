@@ -18,7 +18,29 @@
 html,
 body {
   scroll-behavior: smooth;
-  /* font-family: 'Harmond', sans-serif; */  
+  /* font-family: 'Harmond', sans-serif; */
+}
+
+
+h1 {
+  @apply text-white
+}
+
+h2 {
+  @apply italic text-[50px] 
+}
+
+h3 {
+  @apply text-xl italic
+}
+
+p {
+  @apply text-xs text-neutral-400
+}
+
+
+.card-bg {  
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 

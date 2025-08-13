@@ -23,17 +23,17 @@ export default function LandingPage() {
                     <h1 style={{ fontFamily: 'Harmond', letterSpacing: '-20px' }} className="w-[70%] text-[270px] pl-4 leading-none">
                         ELYSE
                     </h1>
-                    <ul className="w-[30%] pt-10 h-full space-y-5 ">
-                        <li className="italic">
+                    <div className="w-[30%] pt-10 h-full space-y-5 ">
+                        <h3>
                             HOLISTIC LUXURY
                             <br />
                             IN PERFECT HARMONY
-                        </li>
-                        <p className="w-[50%] text-xs text-neutral-400">
+                        </h3>
+                        <p className="w-[50%]">
                             Welcome to Elyse Residence, where timeless design, wellness-focused living, and cultural apartments converge to create an unparalleled sanctuary of elegance and sincerity.
                         </p>
                         <span className="text-sm text-neutral-300 font-semibold">SCROLL</span>
-                    </ul>
+                    </div>
                 </div>
             </div>
         </div>

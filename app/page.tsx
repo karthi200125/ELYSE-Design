@@ -1,9 +1,11 @@
 
 import About from "./[pages]/AboutPage";
+import AmenetisPage from "./[pages]/AmenetisPage";
 import BeliefPage from "./[pages]/BeliefPage";
 import CountsPage from "./[pages]/CountsPage";
 import LandingPage from "./[pages]/LandingPage";
 import ProjectsPage from "./[pages]/ProjectsPage";
+import WeDoPage from "./[pages]/WeDoPage";
 
 const Home = () => {
   return (
@@ -13,7 +15,8 @@ const Home = () => {
       <CountsPage />
       <ProjectsPage />
       <BeliefPage />
-      <section className="h-screen w-full bg-yellow-400 snap-start">Section 5</section>
+      <WeDoPage />
+      <AmenetisPage />
     </div>
   );
 };
